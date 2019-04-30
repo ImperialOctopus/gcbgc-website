@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe');
 
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
+    background-color: orange;
     font-family: 'ZCOOL KuaiLe', cursive;
 }
+
 .container {
     margin: auto;
     height: 100%;
@@ -13,6 +16,7 @@ html, body {
     display: flex;
     flex-direction: column;
 }
+
 header {
     position: relative;
     height: 300px;
@@ -23,11 +27,13 @@ header {
     -ms-user-select: none;
     user-select: none;
 }
+
 .header-image {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
 .header-title {
     position: absolute;
     margin: 0;
@@ -38,32 +44,36 @@ header {
 }
 
 nav {
-    height: 40px;
+    background-color: blue;
 }
-nav > a {
+
+nav>a {
     float: left;
-    background-color: orange;
+    background-color: lightblue;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
 }
-nav > a:hover {
-    background-color: red;
-    color: white;
+
+nav>a:hover {
+    background-color: white;
+    color: black;
 }
-nav > a.active {
-    background-color: red;
-    color: white;
+
+nav>a.active {
+    background-color: white;
+    color: black;
 }
 
 main {
+    background-color: white;
     flex: 1 1 auto;
 }
 
 footer {
-    height: 40px;
+    padding: 6px;
     background-color: grey;
     border-top: 0;
     color: black;
@@ -74,8 +84,9 @@ footer .copyright {
     margin: 0;
     padding: 0;
     width: 100%;
-    text-align:center;
+    text-align: center;
 }
+
 footer .copyright li {
     border-left: solid 1px #d4d4d4;
     display: inline-block;
@@ -83,11 +94,14 @@ footer .copyright li {
     margin-left: 1em;
     padding-left: 1em;
 }
+
 footer .copyright li:first-child {
     border-left: 0;
     margin-left: 0;
     padding-left: 0;
 }
+
 footer .copyright li a {
     color: inherit;
+    text-decoration: none;
 }
