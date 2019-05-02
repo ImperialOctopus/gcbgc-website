@@ -89,13 +89,14 @@ main {
     padding: 0 50px;
 }
 
+h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
 article {
     margin-top: 30px;
     margin-bottom: 30px;
-}
-article>header>h1 {
-    margin: 0;
-    font-size: 1.5rem;
 }
 article>header>h2 {
     margin: 0;
@@ -108,6 +109,11 @@ article>footer>p {
     color: #d4d4d4;
 }
 
+section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 .gallery-grid {
     margin-top: 1rem;
     display: grid;
@@ -115,15 +121,56 @@ article>footer>p {
     grid-gap: 20px;
     align-items: stretch;
 }
-.gallery-element {
-    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
-    max-width: 100%;
-}
 .gallery-element>img {
     width: 100%;
+    height: auto;
     object-fit: cover;
 }
+.gallery-element>p.title {
+    font-weight: bold;
+    text-align: center;
+}
+.gallery-element>p.description {
+    text-align: center;
+}
 
+.games-grid {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-gap: 20px;
+    align-items: stretch;
+}
+.games-element {
+    max-width: 100%;
+    border: 1px solid #ccc;
+}
+.games-element:hover {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+}
+.games-element>img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.games-element>p.title {
+    font-weight: bold;
+    text-align: center;
+}
+.games-element>p.description {
+    text-align: center;
+}
+
+form {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+form>h1 {
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+}
 .form-input {
     width: 100%;
     padding: 12px;
@@ -144,6 +191,23 @@ article>footer>p {
 }
 .form-submit:hover {
     background-color: #003e8e;
+}
+
+.calendar-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 0;
+    width: 100%;
+    padding-top: 70%;
+    position: relative;
+}
+.calendar-embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
 }
 
 .copyright {
