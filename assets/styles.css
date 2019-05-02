@@ -87,10 +87,12 @@ main {
     background-color: white;
     flex: 1 1 auto;
     padding: 0 50px;
-    padding-top: 30px;
-    padding-bottom: 50px;
 }
 
+article {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 article>header>h1 {
     margin: 0;
     font-size: 1.5rem;
@@ -120,6 +122,28 @@ article>footer>p {
 .gallery-element>img {
     width: 100%;
     object-fit: cover;
+}
+
+.form-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+.form-submit {
+    background-color: #0068bf;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.form-submit:hover {
+    background-color: #003e8e;
 }
 
 .copyright {
