@@ -142,6 +142,7 @@ section {
     align-items: stretch;
 }
 .games-element {
+    padding: 20px;
     max-width: 100%;
     border: 1px solid #ccc;
 }
@@ -155,6 +156,7 @@ section {
     object-fit: cover;
 }
 .games-element>p.title {
+    font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
 }
