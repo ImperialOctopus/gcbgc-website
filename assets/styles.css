@@ -183,6 +183,9 @@ form>h1 {
     margin-bottom: 16px;
     resize: vertical;
 }
+.form-input.message {
+    height: 200px;
+}
 .form-submit {
     background-color: #0068bf;
     color: white;

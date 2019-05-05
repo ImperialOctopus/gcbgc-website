@@ -1,8 +1,0 @@
-Confronted with the loss of 80% of our members to the horrors that lie beyond university, our position as a society was looking pretty drastic come October. Luckily, we had forgotten one important factor; namely that STEM students who don’t enjoy clubbing and rowing would be forced to turn to us for their weekly/ biweekly/too-many-days-a-week entertainment.
-
-Last October our noble society faced a crisis. Confronted with the loss of the vast majority of our members to the unknowable horrors beyond graduation, we were worried that 
-
-This year we enjoyed a more diverse set of subjects, personalities and cooking ability within our club, leading to the invention of Smash-and-ice-cream nights and the gradual invasion of the Cartwright maths society by non-mathematicians revising not-maths. We also continued in a few traditions, most notably gambling away our society funding while it was in the transmogrified form of chocolate. (Unfortunately teach our freshers the rules of poker before we did this. Unfortunately for them that is. Or us, if you’re a nutritionist.) We were also lucky enough to acquire a website - http://gcbgc.soc.srcf.net/, and also an online game - https://fake-artist.imperialoctopus.com/ courtesy of Zoey Childs, compsci extraordinaire (I hear she does VetMed in her spare time). Although not quite finished, it has an excellent gallery for fans of that beverage we call tea.
-
-Overall, it has been a good year; we’ve acquired a few more games to add to our collection, eaten several batches of homemade brownies and played more than 100 rounds of Werewolf over a two month period
-
