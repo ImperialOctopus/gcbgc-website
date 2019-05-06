@@ -11,8 +11,15 @@ html,
 body {
     height: 100%;
     margin: 0;
-    background-color: #f3f3f3;
     font-family: 'Noto Sans', sans-serif;
+
+    background:
+        radial-gradient(#DDDDDD 20%, transparent 20%),
+        radial-gradient(#DDDDDD 20%, transparent 20%),
+        white;
+    background-position: 0 0, 4 4;
+    background-attachment: fixed;
+    background-size: 8px 8px;
 }
 
 .container {
@@ -52,7 +59,8 @@ body {
 }
 
 nav {
-    background-color: #0068bf;
+    background-color: #6a1b9a;
+    color: white;
     padding-left: 40px;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -64,8 +72,7 @@ nav {
 
 nav>a {
     float: left;
-    background-color: #0068bf;
-    color: white;
+    color: inherit;
     text-align: center;
     padding: 0.9rem 0.9rem;
     text-decoration: none;
@@ -74,7 +81,7 @@ nav>a {
 }
 
 nav>a:hover {
-    background-color: #003e8e;
+    background-color: #38006b;
     color: white;
 }
 
@@ -137,14 +144,15 @@ section {
 .games-grid {
     margin-top: 1rem;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 20px;
-    align-items: stretch;
 }
 .games-element {
     padding: 20px;
     max-width: 100%;
     border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
 }
 .games-element:hover {
     border: 1px solid #ccc;
@@ -153,15 +161,40 @@ section {
 .games-element>img {
     width: 100%;
     height: auto;
+    max-height: 750px;
     object-fit: cover;
 }
-.games-element>p.title {
+.games-element>.text {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.games-element>.text>p.title {
+    margin: 0;
+    flex-grow: 1;
     font-size: 1.5rem;
     font-weight: bold;
-    text-align: center;
+    
 }
-.games-element>p.description {
-    text-align: center;
+.games-element>.text>p.description {
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    flex-grow: 1;
+}
+.games-element>.text>a.link {
+    margin: 0;
+    text-decoration: none;
+    font-weight: bold;
+    color: #6a1b9a;
+}
+.games-element>.text>p.players {
+    margin: 0;
+    font-weight: bold;
+    color: #444444;
 }
 
 form {
@@ -217,7 +250,7 @@ form>h1 {
 
 .copyright {
     padding: 6px;
-    background-color: #0068bf;
+    background-color: #6a1b9a;
     border-top: 0;
     color: white;
 }
