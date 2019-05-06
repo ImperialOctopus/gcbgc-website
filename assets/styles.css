@@ -220,7 +220,7 @@ form>h1 {
     height: 200px;
 }
 .form-submit {
-    background-color: #0068bf;
+    background-color: #6a1b9a;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -228,7 +228,7 @@ form>h1 {
     cursor: pointer;
 }
 .form-submit:hover {
-    background-color: #003e8e;
+    background-color: #38006b;
 }
 
 .calendar-container {
